@@ -7,6 +7,10 @@ body {
   font-size: 2em;
 }
 
+#app {
+  width: 30em;
+}
+
 header + p {
   color: #555;
 }
@@ -21,6 +25,7 @@ ul {
 
 ul li {
   font-size: 0.7em;
+  margin-bottom: 0.6em;
 }
 
 footer {
@@ -41,15 +46,19 @@ pre {
 }
 
 a {
+  color: black;
   padding: 2px 2px 2px 2px;
   text-decoration: none;
 }
 
 a.active {
-  background: #555;
-  color: #fff;
+  border-bottom: 3px solid #2ac1bc;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;  
 }

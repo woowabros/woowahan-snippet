@@ -6,7 +6,10 @@ global.$ = global.jQuery = Woowahan.$;
 
 const app = new Woowahan();
 const routeConfig = {
-  url: '/', view: views.Main, container: '.contents', layout: 'DefaultLayout'
+  url: '/', 
+  view: views.Main, 
+  container: '.contents', 
+  layout: 'DefaultLayout'
 };
 
 app.start(routeConfig);
