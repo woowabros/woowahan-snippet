@@ -8,7 +8,7 @@ const isNoti = process.env.NOTI || 'off';
 const isProduction = process.env.NODE_ENV === 'production';
 
 const entry = {
-  app: ['./src/index.js']
+  app: ['babel-polyfill', './src/index.js']
 };
 
 const output = {
